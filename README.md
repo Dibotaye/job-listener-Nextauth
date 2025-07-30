@@ -91,7 +91,7 @@ npm start
 \`\`\`
 
 ## Project Structure
-
+```
 job-opportunities/
 ├── app/                   # Next.js App Router pages
 │ ├── login/               # Login page
@@ -114,7 +114,7 @@ job-opportunities/
 ├── types/                 # TypeScript type definitions
 │ ├── opportunity.ts       # Opportunity-related types
 │ └── auth.ts              # Authentication types
-
+```
 
 
 ## Environment Variables
