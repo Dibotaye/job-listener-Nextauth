@@ -66,8 +66,8 @@ The application integrates with the following API endpoints:
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone <repository-url>
-   cd job-opportunities
+   git clone https://github.com/Dibotaye/job-listener-Nextauth
+   cd job-listener-Nextauth
    \`\`\`
 
 2. **Install dependencies**
@@ -92,31 +92,30 @@ npm start
 
 ## Project Structure
 
-\`\`\`
 job-opportunities/
-├── app/ # Next.js App Router pages
-│ ├── login/ # Login page
-│ ├── signup/ # Registration page
-│ ├── verify-email/ # Email verification page
-│ ├── opportunities/[id]/ # Job opportunity details
-│ ├── layout.tsx # Root layout
-│ ├── page.tsx # Home page (opportunities list)
-│ └── globals.css # Global styles
-├── components/ # Reusable components
-│ ├── ui/ # shadcn/ui components
+├── app/                   # Next.js App Router pages
+│ ├── login/               # Login page
+│ ├── signup/              # Registration page
+│ ├── verify-email/        # Email verification page
+│ ├── opportunities/[id]/  # Job opportunity details
+│ ├── layout.tsx           # Root layout
+│ ├── page.tsx             # Home page (opportunities list)
+│ └── globals.css          # Global styles
+├── components/            # Reusable components
+│ ├── ui/                  # ui components
 │ ├── opportunity-card.tsx # Job opportunity card component
-│ └── protected-route.tsx # Route protection component
-├── contexts/ # React contexts
-│ └── auth-context.tsx # Authentication context
-├── lib/ # Utility functions
-│ ├── api.ts # Opportunities API functions
-│ ├── auth-api.ts # Authentication API functions
-│ └── utils.ts # General utilities
-├── types/ # TypeScript type definitions
-│ ├── opportunity.ts # Opportunity-related types
-│ └── auth.ts # Authentication types
-└── README.md # This file
-\`\`\`
+│ └── protected-route.tsx  # Route protection component
+├── contexts/              # React contexts
+│ └── auth-context.tsx     # Authentication context
+├── lib/                   # Utility functions
+│ ├── api.ts               # Opportunities API functions
+│ ├── auth-api.ts          # Authentication API functions
+│ └── utils.ts             # General utilities
+├── types/                 # TypeScript type definitions
+│ ├── opportunity.ts       # Opportunity-related types
+│ └── auth.ts              # Authentication types
+
+
 
 ## Environment Variables
 
